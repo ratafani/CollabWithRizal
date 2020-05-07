@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F63ACF9B24639A60000BEF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63ACF9A24639A60000BEF96 /* AppDelegate.swift */; };
+		F63ACF9D24639A60000BEF96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63ACF9C24639A60000BEF96 /* SceneDelegate.swift */; };
+		F63ACF9F24639A60000BEF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63ACF9E24639A60000BEF96 /* ViewController.swift */; };
+		F63ACFA224639A60000BEF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63ACFA024639A60000BEF96 /* Main.storyboard */; };
+		F63ACFA524639A60000BEF96 /* CollabWithRizal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F63ACFA324639A60000BEF96 /* CollabWithRizal.xcdatamodeld */; };
+		F63ACFA724639A60000BEF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63ACFA624639A60000BEF96 /* Assets.xcassets */; };
+		F63ACFAA24639A60000BEF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63ACFA824639A60000BEF96 /* LaunchScreen.storyboard */; };
+		F63ACFB524639A61000BEF96 /* CollabWithRizalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63ACFB424639A61000BEF96 /* CollabWithRizalTests.swift */; };
+		F63ACFC024639A61000BEF96 /* CollabWithRizalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63ACFBF24639A61000BEF96 /* CollabWithRizalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F63ACFB124639A61000BEF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63ACF8F24639A60000BEF96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63ACF9624639A60000BEF96;
+			remoteInfo = CollabWithRizal;
+		};
+		F63ACFBC24639A61000BEF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63ACF8F24639A60000BEF96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63ACF9624639A60000BEF96;
+			remoteInfo = CollabWithRizal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F63ACF9724639A60000BEF96 /* CollabWithRizal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollabWithRizal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63ACF9A24639A60000BEF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F63ACF9C24639A60000BEF96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F63ACF9E24639A60000BEF96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F63ACFA124639A60000BEF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F63ACFA424639A60000BEF96 /* CollabWithRizal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollabWithRizal.xcdatamodel; sourceTree = "<group>"; };
+		F63ACFA624639A60000BEF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F63ACFA924639A60000BEF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F63ACFAB24639A60000BEF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63ACFB024639A61000BEF96 /* CollabWithRizalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollabWithRizalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63ACFB424639A61000BEF96 /* CollabWithRizalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabWithRizalTests.swift; sourceTree = "<group>"; };
+		F63ACFB624639A61000BEF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63ACFBB24639A61000BEF96 /* CollabWithRizalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollabWithRizalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63ACFBF24639A61000BEF96 /* CollabWithRizalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabWithRizalUITests.swift; sourceTree = "<group>"; };
+		F63ACFC124639A61000BEF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63ACF9424639A60000BEF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63ACFAD24639A61000BEF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63ACFB824639A61000BEF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F63ACF8E24639A60000BEF96 = {
+			isa = PBXGroup;
+			children = (
+				F63ACF9924639A60000BEF96 /* CollabWithRizal */,
+				F63ACFB324639A61000BEF96 /* CollabWithRizalTests */,
+				F63ACFBE24639A61000BEF96 /* CollabWithRizalUITests */,
+				F63ACF9824639A60000BEF96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F63ACF9824639A60000BEF96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F63ACF9724639A60000BEF96 /* CollabWithRizal.app */,
+				F63ACFB024639A61000BEF96 /* CollabWithRizalTests.xctest */,
+				F63ACFBB24639A61000BEF96 /* CollabWithRizalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63ACF9924639A60000BEF96 /* CollabWithRizal */ = {
+			isa = PBXGroup;
+			children = (
+				F63ACF9A24639A60000BEF96 /* AppDelegate.swift */,
+				F63ACF9C24639A60000BEF96 /* SceneDelegate.swift */,
+				F63ACF9E24639A60000BEF96 /* ViewController.swift */,
+				F63ACFA024639A60000BEF96 /* Main.storyboard */,
+				F63ACFA624639A60000BEF96 /* Assets.xcassets */,
+				F63ACFA824639A60000BEF96 /* LaunchScreen.storyboard */,
+				F63ACFAB24639A60000BEF96 /* Info.plist */,
+				F63ACFA324639A60000BEF96 /* CollabWithRizal.xcdatamodeld */,
+			);
+			path = CollabWithRizal;
+			sourceTree = "<group>";
+		};
+		F63ACFB324639A61000BEF96 /* CollabWithRizalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F63ACFB424639A61000BEF96 /* CollabWithRizalTests.swift */,
+				F63ACFB624639A61000BEF96 /* Info.plist */,
+			);
+			path = CollabWithRizalTests;
+			sourceTree = "<group>";
+		};
+		F63ACFBE24639A61000BEF96 /* CollabWithRizalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F63ACFBF24639A61000BEF96 /* CollabWithRizalUITests.swift */,
+				F63ACFC124639A61000BEF96 /* Info.plist */,
+			);
+			path = CollabWithRizalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F63ACF9624639A60000BEF96 /* CollabWithRizal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63ACFC424639A61000BEF96 /* Build configuration list for PBXNativeTarget "CollabWithRizal" */;
+			buildPhases = (
+				F63ACF9324639A60000BEF96 /* Sources */,
+				F63ACF9424639A60000BEF96 /* Frameworks */,
+				F63ACF9524639A60000BEF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollabWithRizal;
+			productName = CollabWithRizal;
+			productReference = F63ACF9724639A60000BEF96 /* CollabWithRizal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F63ACFAF24639A61000BEF96 /* CollabWithRizalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63ACFC724639A61000BEF96 /* Build configuration list for PBXNativeTarget "CollabWithRizalTests" */;
+			buildPhases = (
+				F63ACFAC24639A61000BEF96 /* Sources */,
+				F63ACFAD24639A61000BEF96 /* Frameworks */,
+				F63ACFAE24639A61000BEF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63ACFB224639A61000BEF96 /* PBXTargetDependency */,
+			);
+			name = CollabWithRizalTests;
+			productName = CollabWithRizalTests;
+			productReference = F63ACFB024639A61000BEF96 /* CollabWithRizalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F63ACFBA24639A61000BEF96 /* CollabWithRizalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63ACFCA24639A61000BEF96 /* Build configuration list for PBXNativeTarget "CollabWithRizalUITests" */;
+			buildPhases = (
+				F63ACFB724639A61000BEF96 /* Sources */,
+				F63ACFB824639A61000BEF96 /* Frameworks */,
+				F63ACFB924639A61000BEF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63ACFBD24639A61000BEF96 /* PBXTargetDependency */,
+			);
+			name = CollabWithRizalUITests;
+			productName = CollabWithRizalUITests;
+			productReference = F63ACFBB24639A61000BEF96 /* CollabWithRizalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63ACF8F24639A60000BEF96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Muhammad Tafani Rabbani";
+				TargetAttributes = {
+					F63ACF9624639A60000BEF96 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					F63ACFAF24639A61000BEF96 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F63ACF9624639A60000BEF96;
+					};
+					F63ACFBA24639A61000BEF96 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F63ACF9624639A60000BEF96;
+					};
+				};
+			};
+			buildConfigurationList = F63ACF9224639A60000BEF96 /* Build configuration list for PBXProject "CollabWithRizal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F63ACF8E24639A60000BEF96;
+			productRefGroup = F63ACF9824639A60000BEF96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F63ACF9624639A60000BEF96 /* CollabWithRizal */,
+				F63ACFAF24639A61000BEF96 /* CollabWithRizalTests */,
+				F63ACFBA24639A61000BEF96 /* CollabWithRizalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F63ACF9524639A60000BEF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63ACFAA24639A60000BEF96 /* LaunchScreen.storyboard in Resources */,
+				F63ACFA724639A60000BEF96 /* Assets.xcassets in Resources */,
+				F63ACFA224639A60000BEF96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63ACFAE24639A61000BEF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63ACFB924639A61000BEF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F63ACF9324639A60000BEF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63ACF9F24639A60000BEF96 /* ViewController.swift in Sources */,
+				F63ACF9B24639A60000BEF96 /* AppDelegate.swift in Sources */,
+				F63ACF9D24639A60000BEF96 /* SceneDelegate.swift in Sources */,
+				F63ACFA524639A60000BEF96 /* CollabWithRizal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63ACFAC24639A61000BEF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63ACFB524639A61000BEF96 /* CollabWithRizalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63ACFB724639A61000BEF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63ACFC024639A61000BEF96 /* CollabWithRizalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F63ACFB224639A61000BEF96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63ACF9624639A60000BEF96 /* CollabWithRizal */;
+			targetProxy = F63ACFB124639A61000BEF96 /* PBXContainerItemProxy */;
+		};
+		F63ACFBD24639A61000BEF96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63ACF9624639A60000BEF96 /* CollabWithRizal */;
+			targetProxy = F63ACFBC24639A61000BEF96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F63ACFA024639A60000BEF96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63ACFA124639A60000BEF96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F63ACFA824639A60000BEF96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63ACFA924639A60000BEF96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F63ACFC224639A61000BEF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F63ACFC324639A61000BEF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F63ACFC524639A61000BEF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52RX5R54N7;
+				INFOPLIST_FILE = CollabWithRizal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ada.CollabWithRizal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F63ACFC624639A61000BEF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52RX5R54N7;
+				INFOPLIST_FILE = CollabWithRizal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ada.CollabWithRizal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F63ACFC824639A61000BEF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52RX5R54N7;
+				INFOPLIST_FILE = CollabWithRizalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ada.CollabWithRizalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollabWithRizal.app/CollabWithRizal";
+			};
+			name = Debug;
+		};
+		F63ACFC924639A61000BEF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52RX5R54N7;
+				INFOPLIST_FILE = CollabWithRizalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ada.CollabWithRizalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollabWithRizal.app/CollabWithRizal";
+			};
+			name = Release;
+		};
+		F63ACFCB24639A61000BEF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52RX5R54N7;
+				INFOPLIST_FILE = CollabWithRizalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ada.CollabWithRizalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollabWithRizal;
+			};
+			name = Debug;
+		};
+		F63ACFCC24639A61000BEF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52RX5R54N7;
+				INFOPLIST_FILE = CollabWithRizalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ada.CollabWithRizalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollabWithRizal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63ACF9224639A60000BEF96 /* Build configuration list for PBXProject "CollabWithRizal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63ACFC224639A61000BEF96 /* Debug */,
+				F63ACFC324639A61000BEF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63ACFC424639A61000BEF96 /* Build configuration list for PBXNativeTarget "CollabWithRizal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63ACFC524639A61000BEF96 /* Debug */,
+				F63ACFC624639A61000BEF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63ACFC724639A61000BEF96 /* Build configuration list for PBXNativeTarget "CollabWithRizalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63ACFC824639A61000BEF96 /* Debug */,
+				F63ACFC924639A61000BEF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63ACFCA24639A61000BEF96 /* Build configuration list for PBXNativeTarget "CollabWithRizalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63ACFCB24639A61000BEF96 /* Debug */,
+				F63ACFCC24639A61000BEF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F63ACFA324639A60000BEF96 /* CollabWithRizal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F63ACFA424639A60000BEF96 /* CollabWithRizal.xcdatamodel */,
+			);
+			currentVersion = F63ACFA424639A60000BEF96 /* CollabWithRizal.xcdatamodel */;
+			path = CollabWithRizal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F63ACF8F24639A60000BEF96 /* Project object */;
+}
